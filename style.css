@@ -1,0 +1,64 @@
+body{
+    background-color: aquamarine;
+}
+.containor{
+    
+    border: 2px;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 60vh;
+    width: 60vh;
+    border: 2px; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+#add{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 2rem;
+    background-color: bisque;
+}
+#Substract{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 2rem;
+    background-color: bisque;
+}
+#add:hover{
+    background-color: rgb(243, 202, 152);
+}
+#Substract:hover{
+    background-color: rgb(243, 202, 152);
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+h1{
+    color: burlywood;
+    text-decoration:wavy;
+    text-align: center;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+
+}
+#resetbtn{
+    color: rgb(192, 131, 250);
+    background-color: cadetblue;
+    border: none;
+    border-radius: 2rem;
+
+}
+#resetbtn:hover{
+    background-color: rgb(162, 239, 242) ;
+
+}
